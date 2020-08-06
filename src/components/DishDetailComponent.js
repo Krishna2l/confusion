@@ -23,7 +23,7 @@ import { Link } from 'react-router-dom';
             )
         })
         return (
-            <div className='col-12 col-md-5'>
+            <div className='container'>
                 <h4> Comments </h4>
                 <ul className='list-unstyled'>
                     {cmnts}
@@ -37,7 +37,7 @@ import { Link } from 'react-router-dom';
     function RenderDish({dish}) {
        
             return (
-                <div className='col-12 col-md-5 m-1'>
+                <div className='container'>
                     <Card>
                         <CardImg width="100%" src={dish.image} alt={dish.name} />
                         <CardBody>
