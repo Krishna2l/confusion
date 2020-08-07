@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 function RenderLeader(leader) {
         return (
-              <Link to={`/leaders/${leader.id}`} >
+            <Link to={`/leaders/$leader.id`} >
             <div key={leader.id} className="col-12 mt-5">
-              <Media tag="li">
+              <Media tag="li"  className="media">
                 <Media left Middle>
                     <Media object src={leader.image} alt={leader.name} />
                 </Media>
