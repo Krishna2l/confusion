@@ -117,7 +117,7 @@ class Contact extends Component {
                             </Row>
                               <Row className="form-group">
                                 <Label htmlFor="telnum" md={2}>Contact Tel.</Label>
-                                <Col md={12}>
+                                <Col md={10}>
                                     <Control.text model=".telnum" id="telnum" name="telnum"
                                         placeholder="Tel. Number"
                                         className="form-control"
@@ -140,7 +140,7 @@ class Contact extends Component {
                             </Row>
                             <Row className="form-group">
                                 <Label htmlFor="email" md={2}>Email</Label>
-                                <Col md={12}>
+                                <Col md={10}>
                                     <Control.text model=".email" id="email" name="email"
                                         placeholder="Email"
                                         className="form-control"
@@ -180,7 +180,7 @@ class Contact extends Component {
                             </Row>
                             <Row className="form-group">
                                 <Label htmlFor="message" md={2}>Your Feedback</Label>
-                                <Col md={12}>
+                                <Col md={10}>
                                     <Control.textarea model=".message" id="message" name="message"
                                         rows="12"
                                         className="form-control" />
